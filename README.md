@@ -22,7 +22,7 @@ This program for fetching emails from an IMAP server, saving attachments, and se
    
 Let's break down the main components of the code:
 
-  Class: FetchEmail (This class is designed to handle email fetching operations. Here's an overview of its methods:)
+  Class: FetchEmail (This class is designed to handle email fetching operations. Here's an overview of its methods):
       a. __init__: Initializes the class by establishing an IMAP connection with SSL, logging in, and selecting the inbox.
       b. close_connection: Closes the connection to the IMAP server.
       c. save_attachment: Saves attachments from a given email message to a specified download folder.
