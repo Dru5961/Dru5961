@@ -158,8 +158,8 @@ class FetchEmail():
 mail_server = "imap-mail.outlook.com"
 username = "please provide a outlook mail"
 password = "your password"
-download_folder1 = "C:/Users/lakkamsani.goud/Desktop/mail_ret/output1"
-download_folder2 = "C:/Users/lakkamsani.goud/Desktop/mail_ret/Invoice"
+output = "C:/Users/druthik.goud/Desktop/mail_ret/output"
+invoices = "C:/Users/druthik.goud/Desktop/mail_ret/Invoice"
 fetch_email = FetchEmail(mail_server, username, password)
 has_attachment = False
 
